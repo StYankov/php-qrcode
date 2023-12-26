@@ -1,11 +1,11 @@
 {
-	"name": "chillerlan/php-qrcode",
+    "type": "wordpress-plugin",
+	"name": "wowcher-chillerlan/php-qrcode",
 	"description": "A QR code generator and reader with a user friendly API. PHP 7.4+",
 	"homepage": "https://github.com/chillerlan/php-qrcode",
 	"license": [
 		"MIT", "Apache-2.0"
 	],
-	"type": "library",
 	"keywords": [
 		"QR code", "qrcode", "qr", "qrcode-generator", "phpqrcode", "qrcode-reader", "qr-reader"
 	],
