@@ -8,7 +8,7 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCodeTest\Performance;
+namespace wowcher\chillerlan\QRCodeTest\Performance;
 
 use Closure;
 use function hrtime;

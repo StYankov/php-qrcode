@@ -8,9 +8,9 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCodeTest\Data;
+namespace wowcher\chillerlan\QRCodeTest\Data;
 
-use chillerlan\QRCode\Data\Kanji;
+use wowcher\chillerlan\QRCode\Data\Kanji;
 use Generator, Throwable;
 use function bin2hex, chr, defined, sprintf;
 

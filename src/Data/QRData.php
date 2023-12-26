@@ -8,10 +8,10 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCode\Data;
+namespace wowcher\chillerlan\QRCode\Data;
 
-use chillerlan\QRCode\Common\{BitBuffer, EccLevel, Mode, Version};
-use chillerlan\Settings\SettingsContainerInterface;
+use wowcher\chillerlan\QRCode\Common\{BitBuffer, EccLevel, Mode, Version};
+use wowcher\chillerlan\Settings\SettingsContainerInterface;
 
 use function count;
 use function sprintf;

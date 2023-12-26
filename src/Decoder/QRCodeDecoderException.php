@@ -8,9 +8,9 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCode\Decoder;
+namespace wowcher\chillerlan\QRCode\Decoder;
 
-use chillerlan\QRCode\QRCodeException;
+use wowcher\chillerlan\QRCode\QRCodeException;
 
 /**
  * An exception container

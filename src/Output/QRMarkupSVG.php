@@ -8,7 +8,7 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCode\Output;
+namespace wowcher\chillerlan\QRCode\Output;
 
 use function array_chunk, implode, is_string, preg_match, sprintf, trim;
 

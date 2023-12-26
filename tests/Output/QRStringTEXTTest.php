@@ -8,11 +8,11 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCodeTest\Output;
+namespace wowcher\chillerlan\QRCodeTest\Output;
 
-use chillerlan\QRCode\Data\QRMatrix;
-use chillerlan\QRCode\Output\QROutputInterface;
-use chillerlan\QRCode\Output\QRStringText;
+use wowcher\chillerlan\QRCode\Data\QRMatrix;
+use wowcher\chillerlan\QRCode\Output\QROutputInterface;
+use wowcher\chillerlan\QRCode\Output\QRStringText;
 
 /**
  *

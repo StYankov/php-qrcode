@@ -8,9 +8,9 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCodeTest\Data;
+namespace wowcher\chillerlan\QRCodeTest\Data;
 
-use chillerlan\QRCode\Data\AlphaNum;
+use wowcher\chillerlan\QRCode\Data\AlphaNum;
 
 /**
  * Tests the AlphaNum class

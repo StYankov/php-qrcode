@@ -8,9 +8,9 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCodeTest\Data;
+namespace wowcher\chillerlan\QRCodeTest\Data;
 
-use chillerlan\QRCode\Data\Number;
+use wowcher\chillerlan\QRCode\Data\Number;
 
 /**
  * Tests the Number class

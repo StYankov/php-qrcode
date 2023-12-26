@@ -9,7 +9,7 @@
  * @license      Apache-2.0
  */
 
-namespace chillerlan\QRCode\Detector;
+namespace wowcher\chillerlan\QRCode\Detector;
 
 use function count;
 

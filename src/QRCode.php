@@ -10,15 +10,15 @@
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 
-namespace chillerlan\QRCode;
+namespace wowcher\chillerlan\QRCode;
 
-use chillerlan\QRCode\Common\{
+use wowcher\chillerlan\QRCode\Common\{
 	EccLevel, ECICharset, GDLuminanceSource, IMagickLuminanceSource, LuminanceSourceInterface, MaskPattern, Mode, Version
 };
-use chillerlan\QRCode\Data\{AlphaNum, Byte, ECI, Hanzi, Kanji, Number, QRData, QRDataModeInterface, QRMatrix};
-use chillerlan\QRCode\Decoder\{Decoder, DecoderResult};
-use chillerlan\QRCode\Output\{QRCodeOutputException, QROutputInterface};
-use chillerlan\Settings\SettingsContainerInterface;
+use wowcher\chillerlan\QRCode\Data\{AlphaNum, Byte, ECI, Hanzi, Kanji, Number, QRData, QRDataModeInterface, QRMatrix};
+use wowcher\chillerlan\QRCode\Decoder\{Decoder, DecoderResult};
+use wowcher\chillerlan\QRCode\Output\{QRCodeOutputException, QROutputInterface};
+use wowcher\chillerlan\Settings\SettingsContainerInterface;
 use function class_exists, class_implements, in_array, mb_convert_encoding, mb_internal_encoding;
 
 /**
@@ -161,7 +161,7 @@ class QRCode{
 	/**
 	 * The settings container
 	 *
-	 * @var \chillerlan\QRCode\QROptions|\chillerlan\Settings\SettingsContainerInterface
+	 * @var \chillerlan\QRCode\QROptions|\wowcher\chillerlan\Settings\SettingsContainerInterface
 	 */
 	protected SettingsContainerInterface $options;
 

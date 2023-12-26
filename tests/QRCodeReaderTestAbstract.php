@@ -10,13 +10,13 @@
  * @noinspection PhpComposerExtensionStubsInspection
  */
 
-namespace chillerlan\QRCodeTest;
+namespace wowcher\chillerlan\QRCodeTest;
 
-use chillerlan\QRCodeTest\Data\QRMatrixTest;
-use chillerlan\QRCode\{QRCode, QROptions};
-use chillerlan\QRCode\Common\{EccLevel, Mode, Version};
-use chillerlan\QRCode\Output\QROutputInterface;
-use chillerlan\Settings\SettingsContainerInterface;
+use wowcher\chillerlan\QRCodeTest\Data\QRMatrixTest;
+use wowcher\chillerlan\QRCode\{QRCode, QROptions};
+use wowcher\chillerlan\QRCode\Common\{EccLevel, Mode, Version};
+use wowcher\chillerlan\QRCode\Output\QROutputInterface;
+use wowcher\chillerlan\Settings\SettingsContainerInterface;
 use PHPUnit\Framework\TestCase;
 use Exception, Generator;
 use function array_map, defined, sprintf, str_repeat, substr;

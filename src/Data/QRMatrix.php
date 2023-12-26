@@ -8,9 +8,9 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCode\Data;
+namespace wowcher\chillerlan\QRCode\Data;
 
-use chillerlan\QRCode\Common\{BitBuffer, EccLevel, MaskPattern, Version};
+use wowcher\chillerlan\QRCode\Common\{BitBuffer, EccLevel, MaskPattern, Version};
 use function array_fill, array_map, array_reverse, count, intdiv;
 
 /**

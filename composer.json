@@ -41,8 +41,7 @@
 	"prefer-stable": true,
 	"require": {
 		"php": "^7.4 || ^8.0",
-		"ext-mbstring": "*",
-		"chillerlan/php-settings-container": "^2.1.4 || ^3.1"
+		"ext-mbstring": "*"
 	},
 	"require-dev": {
 		"chillerlan/php-authenticator": "^4.0 || ^5.0",
@@ -59,12 +58,14 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"chillerlan\\QRCode\\": "src/"
+			"wowcher\\chillerlan\\QRCode\\": "src/",
+			"wowcher\\chillerlan\\Settings\\": "src/Settings"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"chillerlan\\QRCodeTest\\": "tests/"
+			"wowcher\\chillerlan\\QRCodeTest\\": "tests/",
+			"wowcher\\chillerlan\\Settings\\": "src/Settings"
 		}
 	},
 	"scripts": {

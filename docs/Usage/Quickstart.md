@@ -4,7 +4,7 @@
 
 Import the main class(es) and include the autoloader (if necessary):
 ```php
-use chillerlan\QRCode\{QRCode, QROptions};
+use wowcher\chillerlan\QRCode\{QRCode, QROptions};
 
 require_once __DIR__.'/../vendor/autoload.php';
 ```

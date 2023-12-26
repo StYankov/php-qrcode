@@ -8,10 +8,10 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCodeTest;
+namespace wowcher\chillerlan\QRCodeTest;
 
-use chillerlan\QRCode\Common\{EccLevel, Mode, Version};
-use chillerlan\QRCode\QRCodeException;
+use wowcher\chillerlan\QRCode\Common\{EccLevel, Mode, Version};
+use wowcher\chillerlan\QRCode\QRCodeException;
 
 /**
  * Trait QRMaxLengthTrait

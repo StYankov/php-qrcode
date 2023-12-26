@@ -10,10 +10,10 @@
  * @see ./shapes.svg
  */
 
-use chillerlan\QRCode\{QRCode, QROptions};
-use chillerlan\QRCode\Common\EccLevel;
-use chillerlan\QRCode\Data\QRMatrix;
-use chillerlan\QRCode\Output\{QROutputInterface, QRMarkupSVG};
+use wowcher\chillerlan\QRCode\{QRCode, QROptions};
+use wowcher\chillerlan\QRCode\Common\EccLevel;
+use wowcher\chillerlan\QRCode\Data\QRMatrix;
+use wowcher\chillerlan\QRCode\Output\{QROutputInterface, QRMarkupSVG};
 
 require_once __DIR__.'/../vendor/autoload.php';
 

@@ -12,8 +12,8 @@
  * @noinspection PhpIllegalPsrClassPathInspection, PhpComposerExtensionStubsInspection
  */
 
-use chillerlan\QRCode\{QRCode, QROptions};
-use chillerlan\QRCode\Output\{QROutputInterface, QRGdImagePNG};
+use wowcher\chillerlan\QRCode\{QRCode, QROptions};
+use wowcher\chillerlan\QRCode\Output\{QROutputInterface, QRGdImagePNG};
 
 require_once __DIR__.'/../vendor/autoload.php';
 

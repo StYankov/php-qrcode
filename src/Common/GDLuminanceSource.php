@@ -11,10 +11,10 @@
  * @noinspection PhpComposerExtensionStubsInspection
  */
 
-namespace chillerlan\QRCode\Common;
+namespace wowcher\chillerlan\QRCode\Common;
 
-use chillerlan\QRCode\Decoder\QRCodeDecoderException;
-use chillerlan\Settings\SettingsContainerInterface;
+use wowcher\chillerlan\QRCode\Decoder\QRCodeDecoderException;
+use wowcher\chillerlan\Settings\SettingsContainerInterface;
 use function file_get_contents, get_resource_type, imagecolorat, imagecolorsforindex,
 	imagecreatefromstring, imagefilter, imagesx, imagesy, is_resource;
 use const IMG_FILTER_BRIGHTNESS, IMG_FILTER_CONTRAST, IMG_FILTER_GRAYSCALE, IMG_FILTER_NEGATE, PHP_MAJOR_VERSION;

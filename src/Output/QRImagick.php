@@ -10,10 +10,10 @@
  * @noinspection PhpComposerExtensionStubsInspection
  */
 
-namespace chillerlan\QRCode\Output;
+namespace wowcher\chillerlan\QRCode\Output;
 
-use chillerlan\QRCode\Data\QRMatrix;
-use chillerlan\Settings\SettingsContainerInterface;
+use wowcher\chillerlan\QRCode\Data\QRMatrix;
+use wowcher\chillerlan\Settings\SettingsContainerInterface;
 use finfo, Imagick, ImagickDraw, ImagickPixel;
 use function extension_loaded, in_array, is_string, max, min, preg_match, strlen;
 use const FILEINFO_MIME_TYPE;

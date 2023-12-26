@@ -8,7 +8,7 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCode;
+namespace wowcher\chillerlan\QRCode;
 
 use Exception;
 

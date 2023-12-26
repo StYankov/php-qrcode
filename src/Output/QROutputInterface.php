@@ -8,9 +8,9 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCode\Output;
+namespace wowcher\chillerlan\QRCode\Output;
 
-use chillerlan\QRCode\Data\QRMatrix;
+use wowcher\chillerlan\QRCode\Data\QRMatrix;
 
 /**
  * Converts the data matrix into readable output

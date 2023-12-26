@@ -12,10 +12,10 @@
  * @noinspection PhpUnused, PhpComposerExtensionStubsInspection
  */
 
-namespace chillerlan\QRCode;
+namespace wowcher\chillerlan\QRCode;
 
-use chillerlan\QRCode\Output\QROutputInterface;
-use chillerlan\QRCode\Common\{EccLevel, MaskPattern, Version};
+use wowcher\chillerlan\QRCode\Output\QROutputInterface;
+use wowcher\chillerlan\QRCode\Common\{EccLevel, MaskPattern, Version};
 use function extension_loaded, in_array, max, min, strtolower;
 use const JSON_THROW_ON_ERROR, PHP_EOL;
 

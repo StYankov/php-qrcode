@@ -8,9 +8,9 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCodeTest\Output;
+namespace wowcher\chillerlan\QRCodeTest\Output;
 
-use chillerlan\QRCode\Output\{QRMarkupSVG, QROutputInterface};
+use wowcher\chillerlan\QRCode\Output\{QRMarkupSVG, QROutputInterface};
 
 /**
  *

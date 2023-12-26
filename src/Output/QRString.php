@@ -10,7 +10,7 @@
  * @noinspection PhpComposerExtensionStubsInspection
  */
 
-namespace chillerlan\QRCode\Output;
+namespace wowcher\chillerlan\QRCode\Output;
 
 use function implode, is_string, json_encode, max, min, sprintf;
 use const JSON_THROW_ON_ERROR;

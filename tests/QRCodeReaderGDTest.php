@@ -8,9 +8,9 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCodeTest;
+namespace wowcher\chillerlan\QRCodeTest;
 
-use chillerlan\QRCode\Common\GDLuminanceSource;
+use wowcher\chillerlan\QRCode\Common\GDLuminanceSource;
 
 /**
  * Tests the GD based reader

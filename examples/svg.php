@@ -10,9 +10,9 @@
  * @noinspection PhpComposerExtensionStubsInspection
  */
 
-use chillerlan\QRCode\{QRCode, QROptions};
-use chillerlan\QRCode\Data\QRMatrix;
-use chillerlan\QRCode\Output\QROutputInterface;
+use wowcher\chillerlan\QRCode\{QRCode, QROptions};
+use wowcher\chillerlan\QRCode\Data\QRMatrix;
+use wowcher\chillerlan\QRCode\Output\QROutputInterface;
 
 require_once __DIR__.'/../vendor/autoload.php';
 

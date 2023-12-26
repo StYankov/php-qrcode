@@ -8,9 +8,9 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCodeTest\Data;
+namespace wowcher\chillerlan\QRCodeTest\Data;
 
-use chillerlan\QRCode\Data\Byte;
+use wowcher\chillerlan\QRCode\Data\Byte;
 
 /**
  * Tests the Byte class

@@ -8,7 +8,7 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCode\Output;
+namespace wowcher\chillerlan\QRCode\Output;
 
 use function is_string, preg_match, strip_tags, trim;
 

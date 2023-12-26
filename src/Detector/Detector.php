@@ -9,11 +9,11 @@
  * @license      Apache-2.0
  */
 
-namespace chillerlan\QRCode\Detector;
+namespace wowcher\chillerlan\QRCode\Detector;
 
-use chillerlan\QRCode\Decoder\Binarizer;
-use chillerlan\QRCode\Common\{LuminanceSourceInterface, Version};
-use chillerlan\QRCode\Decoder\BitMatrix;
+use wowcher\chillerlan\QRCode\Decoder\Binarizer;
+use wowcher\chillerlan\QRCode\Common\{LuminanceSourceInterface, Version};
+use wowcher\chillerlan\QRCode\Decoder\BitMatrix;
 use function abs, intdiv, is_nan, max, min, round;
 use const NAN;
 

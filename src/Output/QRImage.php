@@ -8,7 +8,7 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCode\Output;
+namespace wowcher\chillerlan\QRCode\Output;
 
 /**
  * @deprecated 5.0.0 backward compatibility, use QRGdImage instead

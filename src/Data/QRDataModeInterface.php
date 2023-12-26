@@ -8,9 +8,9 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCode\Data;
+namespace wowcher\chillerlan\QRCode\Data;
 
-use chillerlan\QRCode\Common\BitBuffer;
+use wowcher\chillerlan\QRCode\Common\BitBuffer;
 
 /**
  * Specifies the methods reqired for the data modules (Number, Alphanum, Byte and Kanji)

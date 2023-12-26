@@ -11,9 +11,9 @@
  * @noinspection PhpComposerExtensionStubsInspection
  */
 
-namespace chillerlan\QRCode\Common;
+namespace wowcher\chillerlan\QRCode\Common;
 
-use chillerlan\Settings\SettingsContainerInterface;
+use wowcher\chillerlan\Settings\SettingsContainerInterface;
 use Imagick;
 use function count;
 

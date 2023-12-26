@@ -8,9 +8,9 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCode\Data;
+namespace wowcher\chillerlan\QRCode\Data;
 
-use chillerlan\QRCode\Common\{BitBuffer, Mode};
+use wowcher\chillerlan\QRCode\Common\{BitBuffer, Mode};
 
 use function array_flip, ceil, intdiv, str_split, substr, unpack;
 

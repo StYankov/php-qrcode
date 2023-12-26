@@ -9,11 +9,11 @@
  * @license      Apache-2.0
  */
 
-namespace chillerlan\QRCode\Decoder;
+namespace wowcher\chillerlan\QRCode\Decoder;
 
-use chillerlan\QRCode\Common\{BitBuffer, EccLevel, LuminanceSourceInterface, MaskPattern, Mode, Version};
-use chillerlan\QRCode\Data\{AlphaNum, Byte, ECI, Hanzi, Kanji, Number};
-use chillerlan\QRCode\Detector\Detector;
+use wowcher\chillerlan\QRCode\Common\{BitBuffer, EccLevel, LuminanceSourceInterface, MaskPattern, Mode, Version};
+use wowcher\chillerlan\QRCode\Data\{AlphaNum, Byte, ECI, Hanzi, Kanji, Number};
+use wowcher\chillerlan\QRCode\Detector\Detector;
 use Throwable;
 use function chr, str_replace;
 

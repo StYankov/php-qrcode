@@ -8,11 +8,11 @@
  * @license      MIT
  */
 
-use chillerlan\Authenticator\{Authenticator, AuthenticatorOptionsTrait};
-use chillerlan\Authenticator\Authenticators\AuthenticatorInterface;
-use chillerlan\Settings\SettingsContainerAbstract;
-use chillerlan\QRCode\{QRCode, QROptionsTrait};
-use chillerlan\QRCode\Data\QRMatrix;
+use wowcher\chillerlan\Authenticator\{Authenticator, AuthenticatorOptionsTrait};
+use wowcher\chillerlan\Authenticator\Authenticators\AuthenticatorInterface;
+use wowcher\chillerlan\Settings\SettingsContainerAbstract;
+use wowcher\chillerlan\QRCode\{QRCode, QROptionsTrait};
+use wowcher\chillerlan\QRCode\Data\QRMatrix;
 
 require_once __DIR__.'/../vendor/autoload.php';
 

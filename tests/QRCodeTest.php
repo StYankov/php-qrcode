@@ -8,10 +8,10 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCodeTest;
+namespace wowcher\chillerlan\QRCodeTest;
 
-use chillerlan\QRCode\{QROptions, QRCode};
-use chillerlan\QRCode\Output\{QRCodeOutputException, QROutputInterface};
+use wowcher\chillerlan\QRCode\{QROptions, QRCode};
+use wowcher\chillerlan\QRCode\Output\{QRCodeOutputException, QROutputInterface};
 use PHPUnit\Framework\TestCase;
 use stdClass;
 use function file_get_contents;

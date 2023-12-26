@@ -8,10 +8,10 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCodeTest\Output;
+namespace wowcher\chillerlan\QRCodeTest\Output;
 
-use chillerlan\QRCode\Output\QRGdImagePNG;
-use chillerlan\QRCode\Output\QROutputInterface;
+use wowcher\chillerlan\QRCode\Output\QRGdImagePNG;
+use wowcher\chillerlan\QRCode\Output\QROutputInterface;
 
 /**
  *

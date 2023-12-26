@@ -10,10 +10,10 @@
  * @noinspection PhpComposerExtensionStubsInspection
  */
 
-namespace chillerlan\QRCode\Output;
+namespace wowcher\chillerlan\QRCode\Output;
 
-use chillerlan\QRCode\Data\QRMatrix;
-use chillerlan\Settings\SettingsContainerInterface;
+use wowcher\chillerlan\QRCode\Data\QRMatrix;
+use wowcher\chillerlan\Settings\SettingsContainerInterface;
 use ErrorException;
 use Throwable;
 use function array_values, count, extension_loaded, gd_info, imagebmp, imagecolorallocate, imagecolortransparent,

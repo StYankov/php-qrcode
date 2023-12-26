@@ -8,12 +8,12 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCodeTest\Data;
+namespace wowcher\chillerlan\QRCodeTest\Data;
 
-use chillerlan\QRCode\{QRCode, QROptions};
-use chillerlan\QRCode\Common\{EccLevel, MaskPattern, Version};
-use chillerlan\QRCode\Data\{QRCodeDataException, QRMatrix};
-use chillerlan\QRCode\Output\{QROutputInterface, QRString};
+use wowcher\chillerlan\QRCode\{QRCode, QROptions};
+use wowcher\chillerlan\QRCode\Common\{EccLevel, MaskPattern, Version};
+use wowcher\chillerlan\QRCode\Data\{QRCodeDataException, QRMatrix};
+use wowcher\chillerlan\QRCode\Output\{QROutputInterface, QRString};
 use PHPUnit\Framework\TestCase;
 use Generator;
 use function defined;

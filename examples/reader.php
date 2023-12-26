@@ -8,7 +8,7 @@
  * @license      MIT
  */
 
-use chillerlan\QRCode\{QRCode, QROptions};
+use wowcher\chillerlan\QRCode\{QRCode, QROptions};
 
 require_once __DIR__.'/../vendor/autoload.php';
 

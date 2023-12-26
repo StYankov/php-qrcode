@@ -8,7 +8,7 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCode\Output;
+namespace wowcher\chillerlan\QRCode\Output;
 
 use function array_values, count, date, implode, is_array, is_numeric, max, min, round, sprintf;
 

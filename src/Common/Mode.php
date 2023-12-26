@@ -8,10 +8,10 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCode\Common;
+namespace wowcher\chillerlan\QRCode\Common;
 
-use chillerlan\QRCode\Data\{AlphaNum, Byte, Hanzi, Kanji, Number};
-use chillerlan\QRCode\QRCodeException;
+use wowcher\chillerlan\QRCode\Data\{AlphaNum, Byte, Hanzi, Kanji, Number};
+use wowcher\chillerlan\QRCode\QRCodeException;
 
 /**
  * Data mode information - ISO 18004:2006, 6.4.1, Tables 2 and 3

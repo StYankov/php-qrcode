@@ -8,10 +8,10 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCode\Output;
+namespace wowcher\chillerlan\QRCode\Output;
 
-use chillerlan\QRCode\Data\QRMatrix;
-use chillerlan\Settings\SettingsContainerInterface;
+use wowcher\chillerlan\QRCode\Data\QRMatrix;
+use wowcher\chillerlan\Settings\SettingsContainerInterface;
 use Closure;
 use function base64_encode, dirname, file_put_contents, is_writable, ksort, sprintf;
 

@@ -8,11 +8,11 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCodeTest\Common;
+namespace wowcher\chillerlan\QRCodeTest\Common;
 
-use chillerlan\QRCode\Common\EccLevel;
-use chillerlan\QRCode\Common\MaskPattern;
-use chillerlan\QRCode\QRCodeException;
+use wowcher\chillerlan\QRCode\Common\EccLevel;
+use wowcher\chillerlan\QRCode\Common\MaskPattern;
+use wowcher\chillerlan\QRCode\QRCodeException;
 use PHPUnit\Framework\TestCase;
 
 /**

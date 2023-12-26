@@ -8,9 +8,9 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCode\Data;
+namespace wowcher\chillerlan\QRCode\Data;
 
-use chillerlan\QRCode\Common\Mode;
+use wowcher\chillerlan\QRCode\Common\Mode;
 
 /**
  * abstract methods for the several data modes

@@ -9,10 +9,10 @@
  * @license      Apache-2.0
  */
 
-namespace chillerlan\QRCode\Decoder;
+namespace wowcher\chillerlan\QRCode\Decoder;
 
-use chillerlan\QRCode\Data\QRMatrix;
-use chillerlan\QRCode\Common\{BitBuffer, EccLevel, MaskPattern, Version};
+use wowcher\chillerlan\QRCode\Data\QRMatrix;
+use wowcher\chillerlan\QRCode\Common\{BitBuffer, EccLevel, MaskPattern, Version};
 use function property_exists;
 
 /**

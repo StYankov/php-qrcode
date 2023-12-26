@@ -11,9 +11,9 @@
  * @phan-file-suppress PhanTypePossiblyInvalidDimOffset
  */
 
-namespace chillerlan\QRCode\Detector;
+namespace wowcher\chillerlan\QRCode\Detector;
 
-use chillerlan\QRCode\Decoder\BitMatrix;
+use wowcher\chillerlan\QRCode\Decoder\BitMatrix;
 use function abs, count, intdiv, usort;
 use const PHP_FLOAT_MAX;
 

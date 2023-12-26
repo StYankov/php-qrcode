@@ -8,15 +8,15 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCodeTest\Data;
+namespace wowcher\chillerlan\QRCodeTest\Data;
 
-use chillerlan\QRCode\Common\BitBuffer;
-use chillerlan\QRCode\Common\MaskPattern;
-use chillerlan\QRCode\Data\QRData;
-use chillerlan\QRCode\Output\QRGdImage;
-use chillerlan\QRCode\Output\QROutputInterface;
-use chillerlan\QRCode\QRCode;
-use chillerlan\QRCode\QROptions;
+use wowcher\chillerlan\QRCode\Common\BitBuffer;
+use wowcher\chillerlan\QRCode\Common\MaskPattern;
+use wowcher\chillerlan\QRCode\Data\QRData;
+use wowcher\chillerlan\QRCode\Output\QRGdImage;
+use wowcher\chillerlan\QRCode\Output\QROutputInterface;
+use wowcher\chillerlan\QRCode\QRCode;
+use wowcher\chillerlan\QRCode\QROptions;
 use PHPUnit\Framework\TestCase;
 
 /**

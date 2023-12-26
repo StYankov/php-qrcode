@@ -8,11 +8,11 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCodeTest\Data;
+namespace wowcher\chillerlan\QRCodeTest\Data;
 
-use chillerlan\QRCode\QROptions;
-use chillerlan\QRCode\Common\{BitBuffer, ECICharset, Mode};
-use chillerlan\QRCode\Data\{Byte, ECI, Number, QRCodeDataException, QRData, QRDataModeInterface};
+use wowcher\chillerlan\QRCode\QROptions;
+use wowcher\chillerlan\QRCode\Common\{BitBuffer, ECICharset, Mode};
+use wowcher\chillerlan\QRCode\Data\{Byte, ECI, Number, QRCodeDataException, QRData, QRDataModeInterface};
 use PHPUnit\Framework\TestCase;
 
 /**

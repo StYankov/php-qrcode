@@ -8,12 +8,12 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCodeTest\Output;
+namespace wowcher\chillerlan\QRCodeTest\Output;
 
-use chillerlan\QRCode\QRCode;
-use chillerlan\QRCode\QROptions;
-use chillerlan\QRCode\Data\QRMatrix;
-use chillerlan\QRCode\Output\{QRCodeOutputException, QROutputInterface};
+use wowcher\chillerlan\QRCode\QRCode;
+use wowcher\chillerlan\QRCode\QROptions;
+use wowcher\chillerlan\QRCode\Data\QRMatrix;
+use wowcher\chillerlan\QRCode\Output\{QRCodeOutputException, QROutputInterface};
 use PHPUnit\Framework\TestCase;
 
 use function file_exists, mkdir;

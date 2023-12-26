@@ -9,10 +9,10 @@
  * @license      Apache-2.0
  */
 
-namespace chillerlan\QRCode\Decoder;
+namespace wowcher\chillerlan\QRCode\Decoder;
 
-use chillerlan\QRCode\Common\{EccLevel, MaskPattern, Version};
-use chillerlan\QRCode\Data\{QRCodeDataException, QRMatrix};
+use wowcher\chillerlan\QRCode\Common\{EccLevel, MaskPattern, Version};
+use wowcher\chillerlan\QRCode\Data\{QRCodeDataException, QRMatrix};
 use function array_fill, array_reverse, count;
 use const PHP_INT_MAX, PHP_INT_SIZE;
 

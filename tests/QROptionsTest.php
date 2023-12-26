@@ -10,10 +10,10 @@
  * @noinspection PhpUnusedLocalVariableInspection
  */
 
-namespace chillerlan\QRCodeTest;
+namespace wowcher\chillerlan\QRCodeTest;
 
-use chillerlan\QRCode\QROptions;
-use chillerlan\QRCode\Common\Version;
+use wowcher\chillerlan\QRCode\QROptions;
+use wowcher\chillerlan\QRCode\Common\Version;
 use PHPUnit\Framework\TestCase;
 
 /**

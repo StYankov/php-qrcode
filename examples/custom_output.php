@@ -10,9 +10,9 @@
  * @noinspection PhpIllegalPsrClassPathInspection
  */
 
-use chillerlan\QRCode\{QRCode, QROptions};
-use chillerlan\QRCode\Common\EccLevel;
-use chillerlan\QRCode\Output\{QROutputAbstract, QROutputInterface};
+use wowcher\chillerlan\QRCode\{QRCode, QROptions};
+use wowcher\chillerlan\QRCode\Common\EccLevel;
+use wowcher\chillerlan\QRCode\Output\{QROutputAbstract, QROutputInterface};
 
 require_once __DIR__.'/../vendor/autoload.php';
 

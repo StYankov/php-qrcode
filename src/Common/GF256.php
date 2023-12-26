@@ -9,9 +9,9 @@
  * @license      Apache-2.0
  */
 
-namespace chillerlan\QRCode\Common;
+namespace wowcher\chillerlan\QRCode\Common;
 
-use chillerlan\QRCode\QRCodeException;
+use wowcher\chillerlan\QRCode\QRCodeException;
 
 use function array_fill;
 

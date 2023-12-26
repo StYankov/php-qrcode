@@ -8,9 +8,9 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCodeTest\Output;
+namespace wowcher\chillerlan\QRCodeTest\Output;
 
-use chillerlan\QRCode\Data\QRMatrix;
+use wowcher\chillerlan\QRCode\Data\QRMatrix;
 use const PHP_MAJOR_VERSION;
 
 /**

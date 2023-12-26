@@ -9,10 +9,10 @@
  * @license      Apache-2.0
  */
 
-namespace chillerlan\QRCode\Decoder;
+namespace wowcher\chillerlan\QRCode\Decoder;
 
-use chillerlan\QRCode\Common\LuminanceSourceInterface;
-use chillerlan\QRCode\Data\QRMatrix;
+use wowcher\chillerlan\QRCode\Common\LuminanceSourceInterface;
+use wowcher\chillerlan\QRCode\Data\QRMatrix;
 use function array_fill, count, intdiv, max;
 
 /**

@@ -9,10 +9,10 @@
  * @license      Apache-2.0
  */
 
-namespace chillerlan\QRCode\Detector;
+namespace wowcher\chillerlan\QRCode\Detector;
 
-use chillerlan\QRCode\Data\QRMatrix;
-use chillerlan\QRCode\Decoder\BitMatrix;
+use wowcher\chillerlan\QRCode\Data\QRMatrix;
+use wowcher\chillerlan\QRCode\Decoder\BitMatrix;
 use function array_fill, count, intdiv, sprintf;
 
 /**

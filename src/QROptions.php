@@ -8,9 +8,9 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCode;
+namespace wowcher\chillerlan\QRCode;
 
-use chillerlan\Settings\SettingsContainerAbstract;
+use wowcher\chillerlan\Settings\SettingsContainerAbstract;
 
 /**
  * The QRCode settings container

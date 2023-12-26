@@ -8,10 +8,10 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCodeTest;
+namespace wowcher\chillerlan\QRCodeTest;
 
-use chillerlan\QRCode\Common\IMagickLuminanceSource;
-use chillerlan\QRCode\QRCode;
+use wowcher\chillerlan\QRCode\Common\IMagickLuminanceSource;
+use wowcher\chillerlan\QRCode\QRCode;
 use function extension_loaded;
 use const PHP_OS_FAMILY, PHP_VERSION_ID;
 

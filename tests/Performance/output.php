@@ -8,12 +8,12 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCodeTest\Performance;
+namespace wowcher\chillerlan\QRCodeTest\Performance;
 
-use chillerlan\QRCode\{QRCode, QROptions};
-use chillerlan\QRCode\Common\{EccLevel, Mode, Version};
-use chillerlan\QRCode\Output\QROutputInterface;
-use chillerlan\QRCodeTest\QRMaxLengthTrait;
+use wowcher\chillerlan\QRCode\{QRCode, QROptions};
+use wowcher\chillerlan\QRCode\Common\{EccLevel, Mode, Version};
+use wowcher\chillerlan\QRCode\Output\QROutputInterface;
+use wowcher\chillerlan\QRCodeTest\QRMaxLengthTrait;
 use Generator;
 use function file_put_contents;
 use function json_encode;

@@ -8,9 +8,9 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCode\Data;
+namespace wowcher\chillerlan\QRCode\Data;
 
-use chillerlan\QRCode\Common\{BitBuffer, ECICharset, Mode};
+use wowcher\chillerlan\QRCode\Common\{BitBuffer, ECICharset, Mode};
 use function mb_convert_encoding, mb_detect_encoding, mb_internal_encoding, sprintf;
 
 /**

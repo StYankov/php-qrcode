@@ -8,11 +8,11 @@
  * @license      MIT
  */
 
-namespace chillerlan\QRCodeTest\Output;
+namespace wowcher\chillerlan\QRCodeTest\Output;
 
 use FPDF;
-use chillerlan\QRCode\Data\QRMatrix;
-use chillerlan\QRCode\Output\{QRFpdf, QROutputInterface};
+use wowcher\chillerlan\QRCode\Data\QRMatrix;
+use wowcher\chillerlan\QRCode\Output\{QRFpdf, QROutputInterface};
 
 use function class_exists;
 

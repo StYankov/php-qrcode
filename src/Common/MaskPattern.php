@@ -9,10 +9,10 @@
  * @license      Apache-2.0
  */
 
-namespace chillerlan\QRCode\Common;
+namespace wowcher\chillerlan\QRCode\Common;
 
-use chillerlan\QRCode\Data\QRMatrix;
-use chillerlan\QRCode\QRCodeException;
+use wowcher\chillerlan\QRCode\Data\QRMatrix;
+use wowcher\chillerlan\QRCode\QRCodeException;
 use Closure;
 use function abs, array_column, array_search, intdiv, min;
 

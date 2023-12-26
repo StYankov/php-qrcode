@@ -9,10 +9,10 @@
  * @see https://github.com/chillerlan/php-qrcode/pull/49
  */
 
-namespace chillerlan\QRCode\Output;
+namespace wowcher\chillerlan\QRCode\Output;
 
-use chillerlan\QRCode\Data\QRMatrix;
-use chillerlan\Settings\SettingsContainerInterface;
+use wowcher\chillerlan\QRCode\Data\QRMatrix;
+use wowcher\chillerlan\Settings\SettingsContainerInterface;
 use FPDF;
 
 use function array_values, class_exists, count, intval, is_array, is_numeric, max, min;

@@ -11,10 +11,10 @@
  * @codingStandardsIgnoreFile Squiz.Arrays.ArrayDeclaration.NoCommaAfterLast
  */
 
-namespace chillerlan\QRCodeTest\Common;
+namespace wowcher\chillerlan\QRCodeTest\Common;
 
-use chillerlan\QRCode\Common\MaskPattern;
-use chillerlan\QRCode\QRCodeException;
+use wowcher\chillerlan\QRCode\Common\MaskPattern;
+use wowcher\chillerlan\QRCode\QRCodeException;
 use Closure;
 use PHPUnit\Framework\TestCase;
 
